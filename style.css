@@ -1,0 +1,68 @@
+/* background of the whole html file */
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #5f9ea0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/* layering the background color of the website */
+body{
+    background-color: rgb(219, 245, 245);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+/* a:active { text-decoration: none; } */
+
+/* navigation bar */
+.nav-container {
+    width: 100%;
+    padding-top: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    border-bottom: 1px solid;
+}
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.center {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* section display */
+.sec {
+    height: calc(100vh - 100px);
+}
+
+.sec-center {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.sec-flex{
+    display: flex;
+    flex-direction: column;
+
+    /* border-top: 5em; */
+}
+.sec-content {
+    border-top: 5em;
+}
