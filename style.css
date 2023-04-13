@@ -1,4 +1,4 @@
-/* background of the whole html file */
+/* Global styling */
 html {
     scroll-behavior: smooth;
     font-family: sans-serif;
@@ -20,7 +20,9 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: underline; }
 /* a:active { text-decoration: none; } */
 
-/* navigation bar */
+/* End of Global stylling */
+
+/*NavBar */
 .nav-container {
     width: 100%;
     padding-top: 10px;

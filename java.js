@@ -1,4 +1,4 @@
-// constructing the formart of the form
+// constructing the format of the form
 
 console.log("Hello")
 

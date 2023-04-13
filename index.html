@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tran Personal Website</title>
+    <title>Tran Bio-Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- navigation of the page -->
-    <nav>
+    <nav class="nav-container nav-flex center">
         <div>
             <span>DT</span>
         </div>
@@ -24,16 +24,20 @@
     </nav>
     <!-- end of navigation -->
     <!-- home section -->
-    <section class="nav">
-        <div id="#">
+    <section class="sec">
+        <div class="sec-center sec-flex" id="#">
             <h2>Duy Tran</h2>
-            <p>Fullstack Developer - want to be </p>
+            <p>Fullstack Developer - In progress </p><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi corporis, velit temporibus rerum
+                placeat itaque consequatur deleniti! Fuga laborum quas nulla alias, non voluptatibus nostrum deserunt
+                distinctio? Fugiat, porro tenetur!</p>
+
         </div>
     </section>
     <!-- end of home section -->
     <!-- about me section -->
-    <section>
-        <div id="about-me">
+    <section class="sec sec-content">
+        <div class="sec-center sec-flex" id="about-me">
             <h2>About Me</h2>
             <div class="about-me-info">
                 <img src="" alt="">
@@ -57,8 +61,8 @@
     </section>
     <!-- end of home section -->
     <!-- project section -->
-    <section>
-        <div id="portfolio">
+    <section class="sec">
+        <div class="sec-center sec-flex" id="portfolio">
             <h2>Portfolio</h2>
             <div>
                 <h3>Project #1</h3>
@@ -100,23 +104,24 @@
     </section>
     <!-- end of project section -->
     <!-- contact form -->
-    <section>
-        <div id="contact">
+    <section class="sec">
+        <div class="sec-center sec-flex" id="contact">
             <h2>Contact Me</h2>
             <form id="contact-information">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required><br>
 
-                <label for="message">Message:</label>
-                <input type="text" id="message" name="message" placeholder="Enter your message" required>
+                <label for="message">Message:</label><br>
+                <input type="text" id="message" name="message" placeholder="Enter your message" required><br>
 
                 <button type="submit" class="form-submit">Submit</button>
             </form>
         </div>
     </section>
+    <script src="java.js"></script>
 
 </body>
 
